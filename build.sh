@@ -19,6 +19,7 @@ bash "$PROJECT_DIR/scripts/setup-fastfetch-default.sh"
 lb clean --purge
 
 lb config \
+  --mode debian \
   --distribution resolute \
   --architectures amd64 \
   --archive-areas "main restricted universe multiverse" \
