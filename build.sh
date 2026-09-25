@@ -1,6 +1,13 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+if [[ "$EUID" -ne 0 ]]; then
+  echo "Carbuntu's live-build process needs root privileges."
+  echo "Re-run this script with sudo:"
+  echo "  sudo ./build.sh"
+  exit 1
+fi
+
 PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$PROJECT_DIR"
 
