@@ -78,3 +78,7 @@ Carbuntu is an **early development project**. The build system and package selec
 This project is provided under the terms of the repository's license.
 
 Carbuntu is an independent project and is not an official Ubuntu flavor or Canonical product.
+
+## GitHub Actions
+
+Every push or pull request targeting `main` runs the first Carbuntu automation workflow. It builds the ISO on GitHub's `ubuntu-26.04` runner and uploads the resulting ISO as a workflow artifact. You can also start the workflow manually from the **Actions** tab. GitHub documents `ubuntu-26.04` as an available hosted runner, and workflow files live under `.github/workflows/`. citeturn0search0turn0search3
