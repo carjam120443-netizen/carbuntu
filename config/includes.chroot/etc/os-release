@@ -1,0 +1,11 @@
+NAME="Carbuntu"
+PRETTY_NAME="Carbuntu 26.04 LTS"
+ID=carbuntu
+ID_LIKE=ubuntu
+VERSION_ID="26.04"
+VERSION="26.04 LTS"
+VERSION_CODENAME=resolute
+UBUNTU_CODENAME=resolute
+HOME_URL="https://github.com/carjam120443-netizen/carbuntu"
+SUPPORT_URL="https://github.com/carjam120443-netizen/carbuntu/issues"
+BUG_REPORT_URL="https://github.com/carjam120443-netizen/carbuntu/issues"
