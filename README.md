@@ -1,8 +1,8 @@
-# Carbuntu 
+# Carbuntu
+
 <p align="center">
   <img src="assets/carbuntu-logo.svg" alt="Carbuntu logo" width="800">
 </p>
-🚗🐧
 
 **Carbuntu** is a personal Ubuntu-based Linux distribution project.
 
@@ -61,6 +61,8 @@ The generated ISO will appear in `build/`.
 
 ```text
 carbuntu/
+├── assets/
+│   └── carbuntu-logo.svg
 ├── build.sh
 ├── config/
 │   ├── package-lists/
@@ -85,4 +87,4 @@ Carbuntu is an independent project and is not an official Ubuntu flavor or Canon
 
 ## GitHub Actions
 
-Every push or pull request targeting `main` runs the first Carbuntu automation workflow. It builds the ISO on GitHub's `ubuntu-26.04` runner and uploads the resulting ISO as a workflow artifact. You can also start the workflow manually from the **Actions** tab. GitHub documents `ubuntu-26.04` as an available hosted runner, and workflow files live under `.github/workflows/`. citeturn0search0turn0search3
+Every push or pull request targeting `main` runs the first Carbuntu automation workflow. It builds the ISO on GitHub's `ubuntu-26.04` runner and uploads the resulting ISO as a workflow artifact. You can also start the workflow manually from the **Actions** tab. GitHub documents `ubuntu-26.04` as an available hosted runner, and workflow files live under `.github/workflows/`.
