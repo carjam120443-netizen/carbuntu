@@ -57,6 +57,8 @@ Build the ISO:
 The generated ISO will appear in `build/`.
 
 > **Note:** ISO building should be done on a supported Linux build environment. VirtualBox is a good way to test Carbuntu without changing the host OS.
+>
+> ⚠️⚠️ **Important:** If you have important data you want to keep, only install or test Carbuntu inside a virtual machine such as VirtualBox. Installing an operating system directly to a physical drive can overwrite partitions or wipe the existing OS and data. Back up anything important before experimenting on real hardware.
 
 ## 📁 Project layout
 
