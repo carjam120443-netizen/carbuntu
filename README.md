@@ -15,6 +15,7 @@ The goal is to build a lightweight, customizable Ubuntu desktop while keeping th
 - LightDM login manager
 - NetworkManager for networking
 - Custom Carbuntu branding and system identity
+- Fastfetch with Carbuntu ASCII art as the default terminal display
 - Reproducible live ISO builds
 - Keep the base close to Ubuntu so normal Ubuntu packages remain useful
 
@@ -64,7 +65,12 @@ carbuntu/
 ├── assets/
 │   └── carbuntu-logo.svg
 ├── build.sh
+├── scripts/
+│   └── setup-fastfetch-default.sh
 ├── config/
+│   ├── fastfetch/
+│   │   ├── carbon.txt
+│   │   └── carbon.jsonc
 │   ├── package-lists/
 │   │   └── carbuntu.list.chroot
 │   ├── includes.chroot/
