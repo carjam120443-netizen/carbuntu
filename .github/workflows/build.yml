@@ -1,0 +1,52 @@
+name: Build Carbuntu
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-26.04
+    timeout-minutes: 45
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Install build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            live-build \
+            debootstrap \
+            squashfs-tools \
+            xorriso \
+            grub-pc-bin \
+            grub-efi-amd64-bin \
+            mtools
+
+      - name: Make build script executable
+        run: chmod +x build.sh
+
+      - name: Build Carbuntu ISO
+        run: ./build.sh
+
+      - name: Check ISO
+        run: |
+          test -f build/carbuntu-26.04-amd64.iso
+          ls -lh build/carbuntu-26.04-amd64.iso
+          file build/carbuntu-26.04-amd64.iso
+
+      - name: Upload Carbuntu ISO
+        uses: actions/upload-artifact@v5
+        with:
+          name: carbuntu-26.04-amd64
+          path: build/carbuntu-26.04-amd64.iso
+          if-no-files-found: error
+          retention-days: 14
