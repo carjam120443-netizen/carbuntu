@@ -1,4 +1,8 @@
-# Carbuntu 🚗🐧
+# Carbuntu 
+<p align="center">
+  <img src="assets/carbuntu-logo.svg" alt="Carbuntu logo" width="800">
+</p>
+🚗🐧
 
 **Carbuntu** is a personal Ubuntu-based Linux distribution project.
 
