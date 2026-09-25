@@ -1,0 +1,65 @@
+CARBUNTU CUSTOM LICENSE
+Version 1.0 — 2026
+
+Copyright (c) 2026 carjam120443-netizen
+
+1. SCOPE
+
+This license applies only to original Carbuntu project files created by
+carjam120443-netizen, including original scripts, configuration files,
+branding, artwork, documentation, and other original project material.
+
+Third-party software, packages, source code, trademarks, logos, and other
+materials included in or used by Carbuntu remain subject to their own
+licenses and terms. In particular, this license does not replace or modify
+the licenses of Ubuntu, Debian, Linux, XFCE, Calamares, Fastfetch, or any
+other upstream or third-party software.
+
+2. PERMISSION
+
+You may use, copy, study, modify, and redistribute the original Carbuntu
+project material covered by this license, provided that:
+
+- You retain this license notice in redistributed copies of the original
+  material.
+- You clearly indicate significant modifications to the original material.
+- You do not claim that modified versions are official Carbuntu releases.
+- You do not imply endorsement by or affiliation with the Carbuntu project
+  or its maintainer without permission.
+
+3. BRANDING
+
+The name "Carbuntu" and Carbuntu-specific branding are not automatically
+granted as a right to represent a modified distribution as an official
+Carbuntu release. Modified distributions should use their own name and
+branding unless permission is granted.
+
+4. NO WARRANTY
+
+THE ORIGINAL CARBUNTU MATERIAL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+
+5. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE CARBUNTU PROJECT AND
+ITS MAINTAINER SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, DATA LOSS,
+SYSTEM DAMAGE, HARDWARE DAMAGE, BOOT FAILURE, PARTITION LOSS, OR OTHER
+LOSS ARISING FROM THE USE, MODIFICATION, BUILDING, OR DISTRIBUTION OF THE
+ORIGINAL CARBUNTU MATERIAL.
+
+6. UPSTREAM PROJECTS
+
+Carbuntu is an independent project. It is based on Ubuntu and ultimately
+uses software originating from the broader Debian ecosystem. This license
+does not grant rights to the Ubuntu, Canonical, Debian, or any other
+third-party names, trademarks, copyrights, or software.
+
+7. ACCEPTANCE
+
+By using, modifying, or redistributing original Carbuntu material covered
+by this license, you agree to the terms above, to the extent permitted by
+applicable law.
+
+If any provision of this license is found unenforceable, the remaining
+provisions remain in effect.
