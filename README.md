@@ -94,6 +94,7 @@ carbuntu/
 │   │       └── os-release
 │   └── archives/
 │       └── ubuntu.list.chroot
+├── LICENSE
 └── README.md
 ```
 
@@ -103,7 +104,9 @@ Carbuntu is an **early development project**. The build system and package selec
 
 ## 📜 License
 
-This project is provided under the terms of the repository's license.
+Carbuntu's original project files are covered by the **Carbuntu Custom License 1.0**, located in `LICENSE`.
+
+The custom license permits use, copying, modification, and redistribution of original Carbuntu material under its stated conditions. It does **not** replace the licenses of Ubuntu, Debian, Linux, XFCE, Calamares, Fastfetch, or other third-party software included in the project.
 
 Carbuntu is an independent project and is not an official Ubuntu flavor or Canonical product.
 
