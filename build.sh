@@ -13,6 +13,9 @@ cd "$PROJECT_DIR"
 
 mkdir -p build
 
+# Prepare the Carbuntu Fastfetch default before live-build assembles the ISO.
+bash "$PROJECT_DIR/scripts/setup-fastfetch-default.sh"
+
 lb clean --purge
 
 lb config \
