@@ -1,5 +1,7 @@
 # Carbuntu
 
+> 🚨🚨 **IMPORTANT — READ BEFORE DOWNLOADING THE LATEST ISO:** Please read the other **Important**, **Safety**, and **Disclaimer** sections in this README before downloading, installing, or testing the latest Carbuntu ISO. Carbuntu is an early-development operating system and using an ISO on real hardware can potentially affect your existing OS, drives, partitions, bootloader, files, or other data. **If you have important data you want to keep, use a virtual machine such as VirtualBox for testing.**
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/carjam120443-netizen/carbuntu/22d920848b89a78d99928ab6205bb7f15b3662da/assets/carbuntu-logo.svg" alt="Carbuntu logo" width="800">
 </p>
