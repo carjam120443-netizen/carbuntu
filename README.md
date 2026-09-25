@@ -60,6 +60,18 @@ The generated ISO will appear in `build/`.
 >
 > ⚠️⚠️ **Important:** If you have important data you want to keep, only install or test Carbuntu inside a virtual machine such as VirtualBox. Installing an operating system directly to a physical drive can overwrite partitions or wipe the existing OS and data. Back up anything important before experimenting on real hardware.
 
+## ⚠️ Disclaimer
+
+Carbuntu is provided **as-is, without any guarantee that it will work correctly or safely on your hardware**. By building, installing, or using Carbuntu, you accept responsibility for protecting your own system, files, backups, and data.
+
+The Carbuntu project and its maintainer are **not responsible for damage, data loss, overwritten partitions, hardware problems, boot problems, or any other loss or damage** that may result from building, installing, modifying, or using Carbuntu.
+
+**Back up important data before using Carbuntu on physical hardware.** Testing Carbuntu in VirtualBox or another virtual machine is strongly recommended.
+
+Carbuntu is an independent project based on **Ubuntu**, which is in turn based on **Debian**. Carbuntu is **not affiliated with, endorsed by, or an official product of Canonical, Ubuntu, or the Debian Project**. Canonical, Ubuntu, and the Debian Project are not responsible for Carbuntu or for any damage or data loss caused by Carbuntu.
+
+This disclaimer does not change the licenses or legal rights that apply to Ubuntu, Debian, or the software packages included in Carbuntu.
+
 ## 📁 Project layout
 
 ```text
