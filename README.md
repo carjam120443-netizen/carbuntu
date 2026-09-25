@@ -1,7 +1,7 @@
 # Carbuntu
 
 <p align="center">
-  <img src="assets/carbuntu-logo.svg" alt="Carbuntu logo" width="800">
+  <img src="https://raw.githubusercontent.com/carjam120443-netizen/carbuntu/22d920848b89a78d99928ab6205bb7f15b3662da/assets/carbuntu-logo.svg" alt="Carbuntu logo" width="800">
 </p>
 
 **Carbuntu** is a personal Ubuntu-based Linux distribution project.
